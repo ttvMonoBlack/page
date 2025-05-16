@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>H3adshotBabeX</title>
+  <meta name="description" content="Offizielle Linktree-Seite von H3adshotBabeX mit Links zu Twitch, TikTok, Instagram und Discord.">
+  <meta name="keywords" content="H3adshotBabeX, Twitch, TikTok, Instagram, Discord, Gaming, Clips">
+  <meta name="author" content="H3adshotBabeX">
+  <link rel="icon" href="logo.jpg" type="image/jpeg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
@@ -12,7 +16,7 @@
       margin: 0;
       padding: 0;
       font-family: 'Orbitron', sans-serif;
-      background: url('img/background.jpg') no-repeat center center fixed;
+      background: url('background.jpg') no-repeat center center fixed;
       background-size: cover;
       color: white;
       display: flex;
@@ -40,9 +44,8 @@
       width: 90%;
       max-width: 400px;
       margin: 15px auto;
-      padding: 20px;
+      padding: 15px 25px;
       font-size: 1.3rem;
-      text-align: center;
       background: rgba(160, 32, 240, 0.8);
       color: white;
       text-decoration: none;
@@ -51,8 +54,8 @@
       transition: transform 0.2s, box-shadow 0.2s;
       display: flex;
       align-items: center;
-      justify-content: center;
-      gap: 10px;
+      justify-content: flex-start;
+      gap: 15px;
     }
 
     .link-button:hover {
@@ -60,29 +63,31 @@
       box-shadow: 0 0 30px #c040ff;
     }
 
-    .icon {
-      font-size: 1.5em;
+    .icon-img {
+      width: 30px;
+      height: 30px;
+      filter: brightness(0);
     }
   </style>
 </head>
 <body>
-  <img src="img/logo.jpg" alt="Logo" class="logo">
+  <img src="logo.jpg" alt="Logo" class="logo">
   <h1>H3adshotBabeX</h1>
 
   <a class="link-button" href="https://www.twitch.tv/h3adshotbabex" target="_blank">
-    <span class="icon">🎮</span> Zum Stream
+    <img class="icon-img" src="twitch.png" alt="Twitch"> 🎮 Zum Stream
   </a>
 
   <a class="link-button" href="http://tt.h3adshotbabe.de" target="_blank">
-    <span class="icon">🎬</span> Clips & Fails
+    <img class="icon-img" src="tik-tok.png" alt="TikTok"> 🎬 Clips & Fails
   </a>
 
   <a class="link-button" href="https://www.instagram.com/h3adshotbabex" target="_blank">
-    <span class="icon">📸</span> Behind the Scenes
+    <img class="icon-img" src="instagram.png" alt="Instagram"> 📸 Behind the Scenes
   </a>
 
   <a class="link-button" href="http://dc.h3adshotbabe.de" target="_blank">
-    <span class="icon">🗨️</span> Talk & Vibes
+    <img class="icon-img" src="discord.png" alt="Discord"> 🗨️ Talk & Vibes
   </a>
 </body>
 </html>
